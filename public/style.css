@@ -2,16 +2,19 @@ body {
 	padding-top: 35px;
 	font: 1.1em/1.5 sans-serif;
 }
-.main {
-	margin: auto;
-	padding: 10px 20px 20px;
-	width: 760px;
-	border: 1px solid;
-}
-.main > a {
-  color: red;
+form {
+	margin-top: 30px;
 }
 
-h2 ~ p {
-  background-color: royalblue;
+input[type="email"] {
+  border: 1px dotted green;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  border: none;
+  color: white;
+  background-color: blue;
+  border-radius: 0;
+  padding: 10px;
 }
