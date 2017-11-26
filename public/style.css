@@ -8,3 +8,10 @@ body {
 	width: 760px;
 	border: 1px solid;
 }
+.main > a {
+  color: red;
+}
+
+h2 ~ p {
+  background-color: royalblue;
+}
